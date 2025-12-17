@@ -31,7 +31,7 @@ exports.register=async (req,res) => {
 const cookieOptions={
     httpOnly:true,
     secure:true,  
-    sameSite:'Lax'
+    sameSite:'None'
 };
 
 exports.login=async(req,res)=>{
