@@ -7,7 +7,7 @@ const cors=require('cors')
 const PORT=process.env.PORT;
 
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'http://localhost:5173, https://gym-management-system-fronted.vercel.app/',
     credentials: true
 }))
 
